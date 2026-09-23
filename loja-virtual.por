@@ -90,5 +90,9 @@ senao
   escreva("\nOpção de produto inválida!")
 }
 
+escreva("\n\nPressione ENTER para voltar ao menu...")
+leia(tecla_pausa)
+pare
+
   }
 }
