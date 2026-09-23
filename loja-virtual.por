@@ -74,5 +74,11 @@ programa {
 }
 senao se (opcao_crud == 3)
 {
+  se (quantidade_temp > 0 e quantidade_temp <= estoque_prod3)
+{
+  qtd_carrinho_prod3 = qtd_carrinho_prod3 + quantidade_temp
+  estoque_prod3 = estoque_prod3 - quantidade_temp
+  escreva("\nTênis de Corrida adicionado com sucesso!")
+}
   }
 }
