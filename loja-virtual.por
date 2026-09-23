@@ -67,5 +67,9 @@ programa {
         estoque_prod2 = estoque_prod2 - quantidade_temp
         escreva("\nBoné Casual adicionado com sucesso!")
       }
+      senao
+{
+  escreva("\nQuantidade inválida ou acima do estoque disponível!")
+}
   }
 }
