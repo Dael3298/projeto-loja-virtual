@@ -42,5 +42,8 @@ programa {
        escreva("3. Tênis de Corrida  - R$ 250,00  (Estoque: ", estoque_prod3, ")\n")
       escreva("\nEscolha o produto que deseja adicionar: ")
       leia(opcao_crud)
+
+      escreva("Digite a quantidade desejada: ")
+      leia(quantidade_temp)
   }
 }
