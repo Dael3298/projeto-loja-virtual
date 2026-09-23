@@ -49,5 +49,10 @@ programa {
       se (opcao_crud == 1)
       {
         se (quantidade_temp > 0 e quantidade_temp <= estoque_prod1)
+        {
+        qtd_carrinho_prod1 = qtd_carrinho_prod1 + quantidade_temp
+        estoque_prod1 = estoque_prod1 - quantidade_temp
+        escreva("\nCamisa Esportiva adicionada com sucesso!")
+      }
   }
 }
