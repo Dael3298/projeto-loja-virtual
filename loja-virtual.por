@@ -45,5 +45,9 @@ programa {
 
       escreva("Digite a quantidade desejada: ")
       leia(quantidade_temp)
+
+      se (opcao_crud == 1)
+      {
+        se (quantidade_temp > 0 e quantidade_temp <= estoque_prod1)
   }
 }
