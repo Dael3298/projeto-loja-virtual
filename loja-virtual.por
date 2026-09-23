@@ -94,5 +94,9 @@ escreva("\n\nPressione ENTER para voltar ao menu...")
 leia(tecla_pausa)
 pare
 
+caso 2:
+limpa()
+escreva("--- MEU CARRINHO DE COMPRAS ---\n\n")
+
   }
 }
