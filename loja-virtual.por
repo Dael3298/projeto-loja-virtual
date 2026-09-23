@@ -80,5 +80,15 @@ senao se (opcao_crud == 3)
   estoque_prod3 = estoque_prod3 - quantidade_temp
   escreva("\nTênis de Corrida adicionado com sucesso!")
 }
+senao
+{
+  escreva("\nQuantidade inválida ou acima do estoque disponível!")
+}
+}
+senao
+{
+  escreva("\nOpção de produto inválida!")
+}
+
   }
 }
