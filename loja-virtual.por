@@ -71,5 +71,8 @@ programa {
 {
   escreva("\nQuantidade inválida ou acima do estoque disponível!")
 }
+}
+senao se (opcao_crud == 3)
+{
   }
 }
