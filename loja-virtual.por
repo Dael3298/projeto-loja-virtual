@@ -39,5 +39,8 @@ programa {
       escreva("--- ADICIONAR PRODUTO AO CARRINHO ---\n")
       escreva("1. Camisa Esportiva  - R$ 150,00  (Estoque: ", estoque_prod1, ")\n")
       escreva("2. Boné Casual       - R$  60,00  (Estoque: ", estoque_prod2, ")\n")
+       escreva("3. Tênis de Corrida  - R$ 250,00  (Estoque: ", estoque_prod3, ")\n")
+      escreva("\nEscolha o produto que deseja adicionar: ")
+      leia(opcao_crud)
   }
 }
