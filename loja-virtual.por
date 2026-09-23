@@ -118,5 +118,9 @@ senao
   }
 }
 
+escreva("\nPressione ENTER para voltar ao menu...")
+leia(tecla_pausa)
+pare
+
   }
 }
